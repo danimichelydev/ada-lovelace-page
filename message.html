@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Ada Lovelace">
+    <meta name="description" content="">
+    <title>Ada Lovelace by WoMakersCode</title>
+    <link rel="stylesheet" href="./assets/css/message.css">
+
+</head>
+<body>
+
+    <main class="message-main">
+        <section class="main-wrapper">
+            <h1>Oi, <span id="showName"></span>.</h1>
+            <p>
+                Desejo te dizer que é importante que você abrace as suas paixões e intelecto. Assim como combinei poesia e matemática, você tem o poder de unir diferentes habilidades. <br> <br>
+                Enfrente os desafios com resiliência, pois cada obstáculo é uma oportunidade de crescimento. <br> <br>
+                Seja as arquiteta de seu destino, desbrave os campos da ciência e tecnologia. Seus feitos ecoarão por gerações, assim como minha visão ecoa até hoje. <br> <br>
+                Não se limite, pois você é capaz de moldar o futuro com coragem e sabedoria. <br> <br>
+                Acredito em você!
+                <br> <br> <br> <br>
+                Com carinho, <br><br>
+                <span class="ada">Ada Lovelace</span>
+            </p>
+            <ul>
+                <li><a href="index.html">Voltar ao site</a></li>
+            </ul>
+        </section>
+        
+    
+        
+    </main>
+
+  
+
+    <script>
+      let showName = document.getElementById("showName");
+      showName.innerHTML = localStorage.getItem("userName");
+    </script>
+</body>
+</html>
