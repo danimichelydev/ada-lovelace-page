@@ -68,7 +68,7 @@ header {
 /* BANNER */
 .banner-wrapper {
     width: 80%;
-    height: 85vh;
+    height: 80vh;
     max-width: 1400px;
     margin: auto;
     display: flex;
@@ -154,7 +154,7 @@ header {
   /* ABOUT */
   .about {
     width: 100%;
-    height: 95vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,7 +263,7 @@ header {
 /* CONTACT */
 .contact {
     width: 100%;
-    height: 85vh;
+    height: 80vh;
     background-color: #f1f0f0;
     color: #0b0115;
     display: flex;
